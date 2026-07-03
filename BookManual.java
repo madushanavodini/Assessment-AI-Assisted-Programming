@@ -5,7 +5,7 @@ class BookManual {
     private String Category;
     private String Availability;
 
-    public Book(String BookId,String Title,String Author,String Category,String Availability ){
+    public BookManual(String BookId,String Title,String Author,String Category,String Availability ){
         this.BookId = BookId;
         this.Title = Title;
         this.Author = Author;
