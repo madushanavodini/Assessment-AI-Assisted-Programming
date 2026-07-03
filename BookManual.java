@@ -1,4 +1,4 @@
-class Book {
+class BookManual {
     private  String BookId;
     private String Title;
     private String Author;
