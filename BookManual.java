@@ -1,11 +1,11 @@
-class Book {
+class BookManual {
     private  String BookId;
     private String Title;
     private String Author;
     private String Category;
     private String Availability;
 
-    public Book(String BookId,String Title,String Author,String Category,String Availability ){
+    public BookManual(String BookId,String Title,String Author,String Category,String Availability ){
         this.BookId = BookId;
         this.Title = Title;
         this.Author = Author;
@@ -34,11 +34,11 @@ class Book {
     }
 
 
-    public void borrowBook(){
+    public void markasborrowBook(){
         this.Availability = "Borrowed";
     }
 
-    public void returnBook(){
+    public void markasreturnBook(){
         this.Availability="Available";
     }
 
