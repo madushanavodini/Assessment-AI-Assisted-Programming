@@ -35,11 +35,11 @@ class Book {
     }
 
 
-    public void borrowBook(){
+    public void markasborrowBook(){
         this.Availability = "Borrowed";
     }
 
-    public void returnBook(){
+    public void markasreturnBook(){
         this.Availability="Available";
     }
 
