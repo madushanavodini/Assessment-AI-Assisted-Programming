@@ -1,5 +1,5 @@
 class BookManual {
-    private  String BookId;
+    private String BookId;
     private String Title;
     private String Author;
     private String Category;
