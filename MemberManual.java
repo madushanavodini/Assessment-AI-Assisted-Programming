@@ -40,7 +40,4 @@ class MemberManual{
         System.out.println("Member Type"+MembershipType);
     }
 
-
-
-    
 }
