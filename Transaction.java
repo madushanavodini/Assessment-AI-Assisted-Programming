@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class Transaction {
+class Transaction {
     private final String bookId;
     private final String membershipId;
     private final LocalDate borrowDate;

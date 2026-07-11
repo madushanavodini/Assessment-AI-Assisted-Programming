@@ -1,4 +1,4 @@
-public class Member {
+class Member {
     private final String membershipId;
     private final String name;
     private final String email;
