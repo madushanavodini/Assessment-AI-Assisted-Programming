@@ -105,8 +105,8 @@ public class LibraryManagementManual {
                 System.out.println("10.Business");
                 String SearchCategory = sc.nextLine();
                 for(int j=0; j< CityLibrary.Bookcount; j++){
-                    if(CityLibrary.books[j].getCategory().equalsIgnoreCase(SearchCategory));
-                    System.out.println(CityLibrary.books[j].getTitle());
+                    if(CityLibrary.books[j].getCategory().equalsIgnoreCase(SearchCategory)){
+                        System.out.println(CityLibrary.books[j].getTitle());
 
                 }
 
