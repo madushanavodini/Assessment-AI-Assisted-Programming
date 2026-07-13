@@ -54,7 +54,7 @@ Main Branch
 - Book management
 - Member management
 - Borrow and return books
-- Search books by title, author, and category
+- Search books by author, and category
 - Input validation
 - Exception handling
 
