@@ -8,7 +8,6 @@ The system allows users to:
 - Display all members
 - Borrow books
 - Return books
-- Search books by title
 - Search books by author
 - Search books by category
 
